@@ -3,9 +3,8 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueDevTools from 'vite-plugin-vue-devtools';
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/PogodaGLZ/', // Укажи название репозитория (PogodaGLZ)
+  base: '/https://github.com/Sergei-rgb1/PogodaGLZ/', // Замени PogodaGLZ на название репозитория
   plugins: [
     vue(),
     vueDevTools(),
