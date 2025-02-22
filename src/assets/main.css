@@ -1,0 +1,12 @@
+@import './base.css';
+
+  body {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    place-items: center;
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 17%, rgba(9,77,121,0.9612219887955182) 41%, rgba(0,212,255,1) 100%);
+ justify-content: center;
+ align-items: center;
+}
