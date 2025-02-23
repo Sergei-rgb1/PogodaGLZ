@@ -1,4 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/PogodaGLZ/' : '/'
-  };
-  
+  publicPath: "/https://sergei-rgb1.github.io/PogodaGLZ/"
+};
