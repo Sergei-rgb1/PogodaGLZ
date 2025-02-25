@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: 'https://sergei-rgb1.github.io/PogodaGLZ',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
