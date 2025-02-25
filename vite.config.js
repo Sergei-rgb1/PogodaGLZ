@@ -11,6 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   base: '/PogodaGLZ/',
+  outDir: '../PogodaGLZBuild',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
